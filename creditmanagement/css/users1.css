@@ -1,0 +1,128 @@
+html { 
+  background: url(../images/try4.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	h1{
+		font-size: 45px;
+		margin-left: 500px;
+		margin-top: 20px;
+
+	}
+	#my_table3{
+		margin-left: 290px;
+		font-size: 20px;
+		width: 700px;
+		border-style: groove;
+		border-collapse: collapse;
+		background-color: #effbf7;
+
+	}
+	#my_table3 tr:hover {background-color: #e7e7e7;}
+	th{
+		background-color:#00FF99;
+	
+	}
+	th,td{
+		padding: 11px;
+		text-align: center;
+	}
+	
+.button1{
+  background-color:#99ff99; 
+  border: none;
+  color: black;
+  padding: 4px 18px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 17px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  opacity: 1;
+  margin-left: 10px;
+  font-family:Avanta Garde;
+}
+.login-wrap{
+	background-color: white;
+	width:100%;
+	margin:auto;
+	max-width: 800px;
+	min-height:670px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.login-form{
+	margin-top: 50px;
+	min-height:360px;
+	position:centre;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+
+li {
+  float:right;
+}
+ul {
+	list-style-type: none;
+	margin: -2px;
+	padding: 10px 10px;
+	overflow: hidden;
+	margin-top:13px;
+	height: 50px;
+margin-right: 400px;
+}
+	
+li a {
+
+  padding: 25px 25px;
+color:#ffffff ;
+  text-decoration: none;
+  font-size:23px;
+  letter-spacing: 1px;
+}
+
+p{
+	font-size: 26px;
+	font-family: serif;
+	font-style: oblique;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	float: left;
+	margin-top: -70px;
+	margin-left: 62px;
+	color: #00FFCC;
+	 text-shadow: 1px 0px;
+}
+li a:hover {
+   color: #ff99cc;
+}
+
+/*Transfer Credit Css*/
+.login-wrap2{
+	background-color: white;
+	width:100%;
+	margin:auto;
+	max-width: 770px;
+	min-height:570px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.button4,.btn1 {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 12px 26px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  opacity: 0.8;
+  margin-right: 20px;
+  margin-top: -75px;
+}
